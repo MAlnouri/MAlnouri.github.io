@@ -1,7 +1,18 @@
 body {
-    background-color: aquamarine;
+    background-color: grey;
+    font-family: cursive;
 }
 
 h1 {
-    color: red;
+    color: blue;
+}
+
+p {
+    color: yellow;
+}
+
+a {
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
 }
