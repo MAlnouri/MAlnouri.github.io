@@ -1,0 +1,55 @@
+body {
+    background-color: darkslategray;
+    font-family: cursive;
+}
+
+header {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+header p {
+    font-weight: bold;
+    color: blue;
+}
+
+main {
+    background-color: darkorange;
+}
+
+footer {
+    background-color: teal;
+    text-align: center;
+    border: black solid thin;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: blue;
+}
+
+a {
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    line-height: 2.5;
+}
+
+figure.left {
+    float: left;
+}
+
+figure.border {
+    background-color: purple;
+    border: black solid thin;
+    padding: 10px;
+}
+
+.byline {
+    font-style: italic;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+}
