@@ -48,6 +48,10 @@ figure.border {
     padding: 10px;
 }
 
+img.resize {
+    width: 900px;
+}
+
 .byline {
     font-style: italic;
     font-family: "Helvetica", sans-serif;
