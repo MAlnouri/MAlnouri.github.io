@@ -23,6 +23,10 @@ footer {
     border: black solid thin;
 }
 
+footer ul {
+    list-style-type: none;
+}
+
 h1 {
     color: blue;
 }
