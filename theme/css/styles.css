@@ -1,0 +1,14 @@
+body {
+    background-color: lightgreen;
+}
+
+header {
+    color: white;
+    background-color: brown;
+    text-align: center;
+}
+
+header p {
+    font-weight: bold;
+    color: white;
+}
