@@ -1,0 +1,32 @@
+.btn-margin-padding {
+    margin: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 15px green;
+    border-style: ridge;
+}
+
+.btn-margin-padding:active {
+    color: red;
+}
+
+.btn-padding {
+    padding: 25px;
+    border: 10px green double;
+    border-radius: 22px;
+}
+
+.btn-padding:hover {
+    background-color: rgb(255, 0, 140);
+    border-color: black;
+}
+
+.btn-div-border {
+    border: 1px solid;
+    display: inline-block;
+}
+
+#button-wrapper {
+    border: thin;
+    display: inline-block;
+}

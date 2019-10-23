@@ -1,66 +1,10 @@
+@import "button-styles.css";
+
 body {
     background-color: darkslategray;
     font-family: cursive;
-}
-
-header {
-    background-color: blueviolet;
-    text-align: center;
-}
-
-header p {
-    font-weight: bold;
-    color: blue;
-}
-
-main {
-    background-color: darkorange;
-}
-
-footer {
-    background-color: teal;
-    text-align: center;
-    border: black solid thin;
-}
-
-footer ul {
-    list-style-type: none;
-}
-
-nav {        
-    background-color: aliceblue;
-    border: 1px green solid;
-    padding: 8px;
-    margin: -1px 0px 0px 0px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-}
-
-nav li {
-    display: inline;
-    padding: 8px;    
-}
-
-h1 {
-    color: blue;
-}
-
-h2 {
-    color: green;
-    font-size: 20px;
-}
-
-p {
-    color: blue;
-}
-
-p.clear {
-    clear: both;
+    max-width: 1200px;
+    margin: auto;
 }
 
 a {
@@ -68,6 +12,17 @@ a {
     border: 1px solid white;
     padding: 10px;
     line-height: 2.5;
+}
+
+aside {
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 33%;
 }
 
 figure.left {
@@ -80,8 +35,71 @@ figure.border {
     padding: 10px;
 }
 
+footer {
+    background-color: teal;
+    text-align: center;
+    border: black solid thin;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+header p {
+    font-weight: bold;
+    color: blue;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+    font-size: 20px;
+}
+
 img.resize {
     width: 900px;
+}
+
+main {
+    background-color: darkorange;
+}
+
+nav {
+    background-color: aliceblue;
+    border: 1px green solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 8px;
+}
+
+p {
+    color: blue;
+}
+
+p.clear {
+    clear: both;
+}
+
+.blue-text {
+    color: blue;
 }
 
 .byline {
@@ -92,10 +110,6 @@ img.resize {
 
 .red-heading {
     color: red;
-}
-
-.blue-text {
-    color: blue;
 }
 
 #new-font {
