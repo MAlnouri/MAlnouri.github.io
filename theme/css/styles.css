@@ -12,11 +12,44 @@ a {
     line-height: 3;
 }
 
+a.attribute {
+    font-size: 30px;
+    border: 0px;
+    line-height: 0%;
+    padding: 0%;
+}
+
+aside {
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 20%;
+}
+
+figure.right {
+    float: right;
+}
+
+figure.left {
+    float: left;
+}
+
+figure.border {
+    background-color: lightblue;
+    border: black solid thin;
+    padding: 10px;
+}
+
 footer {
     background-color: rgba(255, 255, 255, 0.452);
     font-size: 20px;
     text-align: center;
     border: black solid thin;
+    clear: both;
 }
 
 header {
@@ -39,11 +72,9 @@ img.float {
 }
 
 img.resize {
-    width: 640px;
-}
-
-p.cent {
-    text-align: center;
+    min-width: 10%;
+    max-width: 100%;
+    height: auto;
 }
 
 img.imgpad {
