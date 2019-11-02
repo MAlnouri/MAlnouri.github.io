@@ -42,8 +42,16 @@ img.resize {
     width: 640px;
 }
 
+p.cent {
+    text-align: center;
+}
+
+img.imgpad {
+    padding-bottom: 5%;
+}
+
 nav {
-    background-color: aliceblue;
+    background-color: lightgoldenrodyellow;
     border: 1px green solid;
     padding: 8px;
     margin: -1px 0px 0px 0px;
@@ -69,6 +77,12 @@ nav li {
     padding: 8px;
 }
 
-#europe ul, #africa ul, #north-america ul, #asia ul {
+ul.dis-type {
     list-style-type: none;
+}
+
+.byline {
+    font-style: italic;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
 }
