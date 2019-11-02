@@ -2,10 +2,11 @@ body {
     background-color: lightgreen;
     max-width: 1400px;
     margin: auto;
+    font-size: 30px;
 }
 
 a {
-    font-size: 26px;
+    font-size: 28px;
     border: 5px solid blue;
     padding: 10px;
     line-height: 3;
@@ -31,11 +32,30 @@ header p {
     font-size: 20px;
 }
 
+img.float {
+    float: right;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img.resize {
+    width: 640px;
+}
+
 nav {
     background-color: aliceblue;
     border: 1px green solid;
     padding: 8px;
     margin: -1px 0px 0px 0px;
+}
+
+nav.continents {
+    background-color: lightgreen;
+    border: 0px;
+}
+
+nav.continents a {
+    border: 1px solid yellow;
 }
 
 nav ul {
@@ -47,4 +67,8 @@ nav ul {
 nav li {
     display: inline;
     padding: 8px;
+}
+
+#europe ul, #africa ul, #north-america ul, #asia ul {
+    list-style-type: none;
 }
