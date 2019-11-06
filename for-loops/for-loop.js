@@ -1,5 +1,5 @@
 window.onload = () => {
-    const listButton = document.getElementById('run-for-loop');
+    const listButton = document.getElementById('runForLoopAction');
 
     listButton.onclick = () => {
         const myList = document.getElementById('my-list');
