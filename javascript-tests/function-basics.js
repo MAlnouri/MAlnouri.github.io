@@ -44,7 +44,7 @@ window.onload = () => {
     addToListAction.onclick = () => {
         const inputValue = document.getElementById('nameDisplay').value;
         elfCode.appendToList(listDisplay, inputValue);
-        console.log('Added user input to list.');
+        console.log('Added user input \'' + inputValue + '\' to list.');
     }
 }
 
