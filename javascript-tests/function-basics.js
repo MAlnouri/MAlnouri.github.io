@@ -23,9 +23,9 @@ window.onload = () => {
         simpleFunctionDisplay.textContent = 'functions should consist of statements designed to perform a single task.';
     }
 
-    function parameterFunction() {
-        console.log('Button adds to paramenter paragraph element.');
-        functionParametersDisplay.textContent = 'Prints the parameter of the function.';
+    function parameterFunction(printParameter) {
+        console.log('Button adds to parameter paragraph element');
+        functionParametersDisplay.textContent = printParameter;
     }
 
     function returnFunction() {
@@ -35,7 +35,7 @@ window.onload = () => {
 
     function callAllFunctions() {
         simpleFunction();
-        parameterFunction();
+        parameterFunction("Many functions take parameters.");
         returnFunction();
     }
 
