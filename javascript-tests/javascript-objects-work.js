@@ -1,7 +1,7 @@
 var person = {
     firstName: 'Mahmmoud',
     lastName: 'Alnouri',
-    fullName: function() {
+    fullName() {
         return this.firstName + " " + this.lastName;
     }
 }
@@ -9,10 +9,10 @@ var person = {
 var calculator = {
     operand01: -1,
     operand02: -1,
-    add: function() {
+    add() {
         return this.operand01 + this.operand02;
     },
-    subtract: function() {
+    subtract() {
         return this.operand01 - this.operand02;
     }
 }
@@ -24,7 +24,7 @@ calculator.multiply = (mul1, mul2) => {
     return mul1 * mul2;
 }
 
-function divider(title) {
+divider = (title) => {
     console.log("\n====================================");
     console.log(title);
     console.log("====================================\n");

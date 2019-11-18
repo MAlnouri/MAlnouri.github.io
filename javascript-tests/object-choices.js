@@ -9,7 +9,7 @@ simpleObject.dynamicMethod = () => {
 }
 
 function FunctionObject() {
-    sayName: function() {
+    this.prototype.sayName: function() {
 
     }
 }
