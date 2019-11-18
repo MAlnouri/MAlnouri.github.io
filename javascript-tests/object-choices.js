@@ -9,11 +9,16 @@ simpleObject.dynamicMethod = () => {
 }
 
 function FunctionObject() {
-    this.prototype.sayName: function() {
-
+    FunctionObject.prototype.sayName = () => {
+        console.log("Function Object.");
     }
+}
+
+class CustomClass {
+
 }
 
 simpleObject.sayName();
 simpleObject.dynamicMethod();
-FunctionObject.sayName();
+const testObject = new FunctionObject();
+testObject.sayName();
