@@ -1,0 +1,12 @@
+button {
+    width: 200px;
+    height: 80px;
+    font-size: 18px;
+    background-color: brown;
+    color: white;
+}
+
+p {
+    font-size: 24px;
+    font-family: cursive;
+}

@@ -23,8 +23,8 @@ window.onload = () => {
 
 
     var simpleObject = {
-        firstName: "M",
-        lastName: "A",
+        firstName: "Mahmmoud",
+        lastName: "Alnouri",
         sayName: function() {
             console.log(this.firstName + " " + this.lastName);
             return this.firstName + " " + this.lastName;
