@@ -37,8 +37,10 @@ window.onload = () => {
         let height = 26;
         if (height >= 25) {
             simpleBranchDisplay.textContent = 'We have a big one';
+            console.log('We have a big one');
         } else {
             simpleBranchDisplay.textContent = 'We have a little one';
+            console.log('We have a little one');
         }   
     }
 }
