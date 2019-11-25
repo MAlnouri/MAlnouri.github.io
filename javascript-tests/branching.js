@@ -4,6 +4,21 @@ if (height >= 5) {
     console.log('Big one');
 }
 
+height = 'little';
+
+switch(height) {
+    case 'little':
+        console.log('Switch: a little one is smaller than five');
+        break;
+
+    case ('big'):
+        console.log('Switch: a big one is five or greater');
+        break;
+
+    default:
+        console.log('We do not know about this one.')
+}
+
 height = 10;
 
 if (height >= 5) {
