@@ -52,6 +52,10 @@ footer {
     clear: both;
 }
 
+footer ul {
+    list-style-type: none;
+}
+
 header {
     color: white;
     background-color: brown;
