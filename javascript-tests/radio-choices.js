@@ -2,6 +2,7 @@ window.onload = () => {
     const myForm = document.getElementById('sort-type');
 
     myForm.addEventListener('submit', (event) => {
+
         event.preventDefault();
         const value = document.querySelector('input[name="sorter"]:checked').value;
         if (value.toLowerCase() === 'green') {
@@ -36,9 +37,11 @@ window.onload = () => {
         currentClass = className;
         element.classList.add(className);
     }
-
-    showChoice = (val) => {
-        console.log(val);
-    }
     
+}
+
+showChoice = (val) => {
+    console.log(val);
+    const choiceDisplay = document.getElementById("user-choice");
+    choiceDisplay.textContent = val;
 }
