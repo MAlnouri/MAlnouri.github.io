@@ -2,7 +2,7 @@
 
 body {
     background-color: darkslategray;
-    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: 1200px;
     margin: auto;
 }
@@ -36,7 +36,7 @@ figure.border {
 }
 
 footer {
-    background-color: teal;
+    background-color: coral;
     text-align: center;
     border: black solid thin;
     clear: both;
@@ -47,21 +47,21 @@ footer ul {
 }
 
 header {
-    background-color: blueviolet;
+    background-color: dodgerblue;
     text-align: center;
 }
 
 header p {
     font-weight: bold;
-    color: blue;
+    color: ghostwhite;
 }
 
 h1 {
-    color: blue;
+    color: ghostwhite;
 }
 
 h2 {
-    color: green;
+    color: chartreuse;
     font-size: 20px;
 }
 
@@ -69,8 +69,12 @@ img.resize {
     width: 900px;
 }
 
+img.rotate {
+    transform: rotate(0.25turn);
+}
+
 main {
-    background-color: darkorange;
+    background-color: seagreen;
 }
 
 nav {

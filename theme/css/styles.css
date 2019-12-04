@@ -81,6 +81,10 @@ img.resize {
     height: auto;
 }
 
+img.rotate {
+    transform: rotate(0.25turn);
+}
+
 img.imgpad {
     padding-bottom: 5%;
 }
